@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "near-ai/zai-org/GLM-5.1-FP8"
+  ],
+  "component_id": null,
+  "event_id": "chg-256722aa950795b156174c6d5cc72138",
+  "field": "compose_hash_committed",
+  "first_seen_at": "2026-10-25T17:02:55Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-10-25T17:02:55Z",
+  "new_observation_id": "20261025T170247.076314Z-bd9151aee7bc/5ea81475b25da05938b8671b",
+  "new_observation_path": "observations/records/20261025T170247.076314Z-bd9151aee7bc/5ea81475b25da05938b8671b.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261024T163443.149386Z-9ad7f80f55dd/5ea81475b25da05938b8671b",
+  "old_observation_path": "observations/records/20261024T163443.149386Z-9ad7f80f55dd/5ea81475b25da05938b8671b.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/504d1316b7af9e934776cfe03f8716e3dd0b07809d55c735bd0999c12268679b.json",
+  "old_value": false,
+  "priority": "normal",
+  "route_id": "near-ai/zai-org/GLM-5.1-FP8",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}

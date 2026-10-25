@@ -1,0 +1,12 @@
+{
+  "model": "Kimi-K2.6-TEE",
+  "observation_id": "20261025T170247.076314Z-bd9151aee7bc/5c27791fdcd8f01aa06a6ee2",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "chutes",
+  "reason": "pending",
+  "route_id": "chutes/Kimi-K2.6-TEE",
+  "run_id": "20261025T170247.076314Z-bd9151aee7bc",
+  "schema_version": "1",
+  "started_at": "2026-10-25T17:02:47.076349Z"
+}

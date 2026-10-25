@@ -1,0 +1,12 @@
+{
+  "model": "api.redpill.ai",
+  "observation_id": "20261025T170247.076314Z-bd9151aee7bc/00d71b240a1e65dce0fd7c79",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "aci-gateway",
+  "reason": "pending",
+  "route_id": "aci-gateway/api.redpill.ai",
+  "run_id": "20261025T170247.076314Z-bd9151aee7bc",
+  "schema_version": "1",
+  "started_at": "2026-10-25T17:02:47.076349Z"
+}

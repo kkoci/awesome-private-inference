@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "chutes/gemma-4-31B-TEE"
+  ],
+  "component_id": null,
+  "event_id": "chg-8c29c9f9fb4f0bb52cbad3635ca724cb",
+  "field": "report_data_binds_key",
+  "first_seen_at": "2026-10-25T17:03:04Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-10-25T17:03:04Z",
+  "new_observation_id": "20261025T170247.076314Z-bd9151aee7bc/bec27c693c1b775b82d4b459",
+  "new_observation_path": "observations/records/20261025T170247.076314Z-bd9151aee7bc/bec27c693c1b775b82d4b459.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261024T163443.149386Z-9ad7f80f55dd/bec27c693c1b775b82d4b459",
+  "old_observation_path": "observations/records/20261024T163443.149386Z-9ad7f80f55dd/bec27c693c1b775b82d4b459.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/3579efd38d5d96f3711dc51eb3cefddea9e9e05f688af9d1dae68428ed89fe0b.json",
+  "old_value": true,
+  "priority": "normal",
+  "route_id": "chutes/gemma-4-31B-TEE",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}
