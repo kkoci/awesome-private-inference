@@ -1,0 +1,21 @@
+{
+  "affected_routes": [
+    "private-inference-standard",
+    "private-inference-zdr",
+    "private-inference-private"
+  ],
+  "current_sha256": "89990cd77646394ac562e0f1d421c7b06ee7bc463962c6f632a667469215da7b",
+  "current_status": "observed",
+  "event_id": "c1d64a64171759a7a7f9304df3d86f9fc8213997904fea5e81b2c2362fecea6b",
+  "kind": "catalog_changed",
+  "previous_sha256": "10e8662b350bbc7bc81638d27cb1a502b2cd49b58591fe5b8a170ccf1b947f5a",
+  "previous_status": "observed",
+  "priority": "medium",
+  "provider": "private-inference",
+  "route_id": "publication/private-inference-catalog",
+  "source_id": "private-inference-catalog",
+  "timestamp": "2026-10-26T19:15:54.148245Z",
+  "type": "catalog_changed",
+  "url": "https://privateinference.gg/v1/models",
+  "verification": "not_performed"
+}

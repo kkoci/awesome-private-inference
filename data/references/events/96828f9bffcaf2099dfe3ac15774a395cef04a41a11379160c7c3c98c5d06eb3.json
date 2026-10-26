@@ -1,0 +1,20 @@
+{
+  "affected_routes": [
+    "venice-near",
+    "venice-phala"
+  ],
+  "current_sha256": "aef830252f6335d0e8646cf2dc8e81e7f4273a11c33fa8128e130c016a329e33",
+  "current_status": "observed",
+  "event_id": "96828f9bffcaf2099dfe3ac15774a395cef04a41a11379160c7c3c98c5d06eb3",
+  "kind": "catalog_changed",
+  "previous_sha256": "695092f182d826a661a778d0e8781899998743e601ba8137f2eb10c4c6883fae",
+  "previous_status": "observed",
+  "priority": "medium",
+  "provider": "venice",
+  "route_id": "publication/venice-models",
+  "source_id": "venice-models",
+  "timestamp": "2026-10-26T19:15:56.923341Z",
+  "type": "catalog_changed",
+  "url": "https://api.venice.ai/api/v1/models",
+  "verification": "not_performed"
+}
