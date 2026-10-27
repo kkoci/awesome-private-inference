@@ -1,0 +1,12 @@
+{
+  "model": "e2ee-qwen3-6-35b-a3b",
+  "observation_id": "20261027T184033.708032Z-f97b4d520737/4f3fb84ea047d1d01d3bfbd4",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "venice",
+  "reason": "pending",
+  "route_id": "venice/e2ee-qwen3-6-35b-a3b",
+  "run_id": "20261027T184033.708032Z-f97b4d520737",
+  "schema_version": "1",
+  "started_at": "2026-10-27T18:40:33.708078Z"
+}
