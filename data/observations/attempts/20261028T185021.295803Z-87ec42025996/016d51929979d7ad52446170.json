@@ -1,0 +1,12 @@
+{
+  "model": "e2ee-gemma-4-31b",
+  "observation_id": "20261028T185021.295803Z-87ec42025996/016d51929979d7ad52446170",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "venice",
+  "reason": "pending",
+  "route_id": "venice/e2ee-gemma-4-31b",
+  "run_id": "20261028T185021.295803Z-87ec42025996",
+  "schema_version": "1",
+  "started_at": "2026-10-28T18:50:21.295852Z"
+}
