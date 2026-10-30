@@ -1,0 +1,19 @@
+{
+  "affected_routes": [
+    "confidential-ai-api"
+  ],
+  "current_sha256": null,
+  "current_status": "error",
+  "event_id": "6f24edffdc30fe4100588e2df674ad2973506616e2907bb3b8d57d232090951b",
+  "kind": "publication_error",
+  "previous_sha256": "bc59a4ab591df86a2396923bc0074b0811a13ddda1eeb65fb9f7dcd2f43b4f35",
+  "previous_status": "observed",
+  "priority": "high",
+  "provider": "confidential-ai",
+  "route_id": "publication/confidential-ai-releases",
+  "source_id": "confidential-ai-releases",
+  "timestamp": "2026-10-30T18:36:03.550622Z",
+  "type": "publication_error",
+  "url": "https://api.github.com/repos/confidential-dot-ai/confidential-inference/releases?per_page=10",
+  "verification": "not_performed"
+}

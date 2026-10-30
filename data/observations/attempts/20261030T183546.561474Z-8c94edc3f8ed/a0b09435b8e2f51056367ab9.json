@@ -1,0 +1,12 @@
+{
+  "model": "DeepSeek-V3.2-TEE",
+  "observation_id": "20261030T183546.561474Z-8c94edc3f8ed/a0b09435b8e2f51056367ab9",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "chutes",
+  "reason": "pending",
+  "route_id": "chutes/DeepSeek-V3.2-TEE",
+  "run_id": "20261030T183546.561474Z-8c94edc3f8ed",
+  "schema_version": "1",
+  "started_at": "2026-10-30T18:35:46.561516Z"
+}

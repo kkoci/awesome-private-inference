@@ -36101,6 +36101,96 @@
         "removed": 1,
         "unit": "captured document lines, not deployed code LOC"
       }
+    },
+    {
+      "added": [
+        "5b6f7d33eb93613ab1de013c7cff1a6cd00fe58c04a195ca37f1e5048fb2fc10"
+      ],
+      "at": "2026-10-30T18:36:04.406399Z",
+      "code_delta": null,
+      "evidence": "data/references/observations/raw/private-inference-chat-html-5b6f7d33eb93613ab1de013c7cff1a6cd00fe58c04a195ca37f1e5048fb2fc10.bin",
+      "id": "5fbfffb027c63ba51d99",
+      "kind": "new set",
+      "lane": "private-inference|private-inference-chat-html|document SHA-256|published document",
+      "new": [
+        "5b6f7d33eb93613ab1de013c7cff1a6cd00fe58c04a195ca37f1e5048fb2fc10"
+      ],
+      "old": [
+        "c515a6322b4b25e14a0e5b5c1b2a2b4012358f3989cada324c826973dd4c6460"
+      ],
+      "previous_at": "2026-10-29T18:56:54.313556Z",
+      "previous_evidence": "data/references/observations/raw/private-inference-chat-html-c515a6322b4b25e14a0e5b5c1b2a2b4012358f3989cada324c826973dd4c6460.bin",
+      "provider": "private-inference",
+      "removed": [
+        "c515a6322b4b25e14a0e5b5c1b2a2b4012358f3989cada324c826973dd4c6460"
+      ],
+      "reviews": [],
+      "scope": "publication bytes only; no signature or runtime verification",
+      "text_delta": {
+        "added": 3,
+        "removed": 16,
+        "unit": "captured document lines, not deployed code LOC"
+      }
+    },
+    {
+      "added": [
+        "8b50bd1b31ddbdcf328e2c4a2ff7e96a64d545ea0ea3fead3140b4689ab213a2"
+      ],
+      "at": "2026-10-30T18:36:04.655411Z",
+      "code_delta": null,
+      "evidence": "data/references/observations/raw/private-inference-chat-main-8b50bd1b31ddbdcf328e2c4a2ff7e96a64d545ea0ea3fead3140b4689ab213a2.bin",
+      "id": "77e0309834af14eb59e3",
+      "kind": "new set",
+      "lane": "private-inference|private-inference-chat-main|document SHA-256|published document",
+      "new": [
+        "8b50bd1b31ddbdcf328e2c4a2ff7e96a64d545ea0ea3fead3140b4689ab213a2"
+      ],
+      "old": [
+        "cc74f71c0c7623e27b8cca8e35e79060996190536fe45b1090c2b6d20baf0753"
+      ],
+      "previous_at": "2026-10-29T18:56:55.028281Z",
+      "previous_evidence": "data/references/observations/raw/private-inference-chat-main-cc74f71c0c7623e27b8cca8e35e79060996190536fe45b1090c2b6d20baf0753.bin",
+      "provider": "private-inference",
+      "removed": [
+        "cc74f71c0c7623e27b8cca8e35e79060996190536fe45b1090c2b6d20baf0753"
+      ],
+      "reviews": [],
+      "scope": "publication bytes only; no signature or runtime verification",
+      "text_delta": {
+        "added": 319,
+        "removed": 38,
+        "unit": "captured document lines, not deployed code LOC"
+      }
+    },
+    {
+      "added": [
+        "d6c7657ac48ad30048e22e4b3414fdb287605f70368bbd6a705dca2822f7bd67"
+      ],
+      "at": "2026-10-30T18:36:05.819752Z",
+      "code_delta": null,
+      "evidence": "data/references/observations/raw/private-inference-browser-verifier-d6c7657ac48ad30048e22e4b3414fdb287605f70368bbd6a705dca2822f7bd67.bin",
+      "id": "56b7cfb7f43988f18651",
+      "kind": "new set",
+      "lane": "private-inference|private-inference-browser-verifier|document SHA-256|published document",
+      "new": [
+        "d6c7657ac48ad30048e22e4b3414fdb287605f70368bbd6a705dca2822f7bd67"
+      ],
+      "old": [
+        "9d68c1e1d57d13a8dff88151f9192285c7748578003542dbf4380d006901eb11"
+      ],
+      "previous_at": "2026-10-29T18:56:55.866339Z",
+      "previous_evidence": "data/references/observations/raw/private-inference-browser-verifier-9d68c1e1d57d13a8dff88151f9192285c7748578003542dbf4380d006901eb11.bin",
+      "provider": "private-inference",
+      "removed": [
+        "9d68c1e1d57d13a8dff88151f9192285c7748578003542dbf4380d006901eb11"
+      ],
+      "reviews": [],
+      "scope": "publication bytes only; no signature or runtime verification",
+      "text_delta": {
+        "added": 8,
+        "removed": 8,
+        "unit": "captured document lines, not deployed code LOC"
+      }
     }
   ],
   "evidence_base": "https://github.com/amiller/awesome-private-inference/blob/main/",
@@ -36117,7 +36207,7 @@
     "venice"
   ],
   "kind": "reference-observations",
-  "last_observed_at": "2026-10-29T18:56:55.866339Z",
+  "last_observed_at": "2026-10-30T18:36:05.819752Z",
   "limits": [
     "All extracted tracked values, not all provider values or models.",
     "First observed is not deployment time; absence is not retirement.",
@@ -36227,12 +36317,12 @@
         "ec2a354e2b69c4f849f8",
         "098fd71e65ba4ef3f0a4"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "compose_hash",
       "first": "2026-08-18T23:19:49Z",
       "id": "aci-gateway|aci-gateway/shared-workload|compose_hash|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "aa767dbc886174737fcc77083851e3dbdea093b976404755a3f5a68c0d9e7992"
       ],
@@ -36311,9 +36401,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 74,
+      "samples": 75,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 17
     },
@@ -36328,12 +36419,12 @@
         "ed03c553af01b2f91f3d",
         "c2ad4eddbf31eee54d8a"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "os_image",
       "first": "2026-08-18T23:19:49Z",
       "id": "aci-gateway|aci-gateway/shared-workload|os_image|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "dstack-0.5.9-bd369a8c"
       ],
@@ -36412,9 +36503,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 74,
+      "samples": 75,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 2
     },
@@ -36439,12 +36531,12 @@
         "712faa1eae2c36395120",
         "e1b7eef65bcd01d00e58"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "repo_commit",
       "first": "2026-08-18T23:19:49Z",
       "id": "aci-gateway|aci-gateway/shared-workload|repo_commit|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "22d08e24129804c72b0bfce6f547636992a3f559"
       ],
@@ -36523,9 +36615,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 74,
+      "samples": 75,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 15
     },
@@ -36563,12 +36656,12 @@
         "44c3cb20fbcea6dccb2b",
         "dce181bfa2cc06598b40"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "workload_keyset_digest",
       "first": "2026-08-18T23:19:49Z",
       "id": "aci-gateway|aci-gateway/shared-workload|workload_keyset_digest|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "sha256:df2a7cd6c1c6b697879f64f758c2dc378d6c60cde8aa272e9c536858466383f5"
       ],
@@ -36647,9 +36740,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 74,
+      "samples": 75,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 26
     },
@@ -36665,12 +36759,12 @@
         "640f88981c460085a0e4",
         "63c249b9fbc3ba6ed00d"
       ],
-      "evidence": "data/observations/evidence/sha256/eb81a947d0cad5fb253d747f89a410123ba9b3a3470e3e89cce41f5d2065a8de.json",
+      "evidence": "data/observations/evidence/sha256/c320b1f503ea580f8a5aa1dd929bd950d2a4101ea3fb30167f6f3b7d6557af68.json",
       "family": "published document",
       "field": "document SHA-256",
       "first": "2026-10-14T01:42:25.270249Z",
       "id": "aci-gateway|gateway compose|document SHA-256|published document",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "aa767dbc886174737fcc77083851e3dbdea093b976404755a3f5a68c0d9e7992"
       ],
@@ -36696,9 +36790,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 21,
+      "samples": 22,
       "scope": "measured compose preimage captured by adapter; not a full source tree",
       "unique_values": 6
     },
@@ -37700,7 +37795,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:26.178325Z",
       "id": "confidential-ai|confidential-ai-allowlist|document SHA-256|published document",
-      "last": "2026-10-29T18:56:53.066728Z",
+      "last": "2026-10-30T18:36:03.002244Z",
       "latest": [
         "8de45cdb8f1242d714bb0de35b2f4aceb7eba93b3537219cb20fa029d10eb58d"
       ],
@@ -37725,9 +37820,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 3
     },
@@ -37745,7 +37841,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:26.178325Z",
       "id": "confidential-ai|confidential-ai-allowlist|reference entries|published reference set",
-      "last": "2026-10-29T18:56:53.066728Z",
+      "last": "2026-10-30T18:36:03.002244Z",
       "latest": [
         "/workloads/armtls-mesh-3fce8c123911-f67ba13f/containers/*/digest=sha256:3fce8c123911f7242cab3f323edc11a4e73b764e8475e6e8128d3bd0248423e1",
         "/workloads/busybox-fd8d9aa63ba2-7859552d/containers/*/digest=sha256:fd8d9aa63ba2f0982b5304e1ee8d3b90a210bc1ffb5314d980eb6962f1a9715d",
@@ -37794,9 +37890,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 59
     },
@@ -38088,7 +38185,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.524929Z",
       "id": "maple|maple-canonical-pcrDev.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:51.952137Z",
+      "last": "2026-10-30T18:36:01.401404Z",
       "latest": [
         "df5ddc0708bc9f267a0211d7ceb4bb1aa8313a8f966060fe89b0302cd87b1579"
       ],
@@ -38114,9 +38211,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 8
     },
@@ -38139,7 +38237,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.524929Z",
       "id": "maple|maple-canonical-pcrDev.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:51.952137Z",
+      "last": "2026-10-30T18:36:01.401404Z",
       "latest": [
         "/PCR0=fc0040086134b037d0dfd12206ae3ef24d438cc4694db2f1bed7c032787d0fc9206a3d2069044ad84dfc9aea3cbe3a84",
         "/PCR1=a91689e37a54303051f68263010f397ddfa92d66e17df7a03a6777c33ff1e4fc12b69bbbe786894d43dcba1cf6d60aaa",
@@ -38167,9 +38265,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 18
     },
@@ -38192,7 +38291,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.579166Z",
       "id": "maple|maple-canonical-pcrDevHistory.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.188422Z",
+      "last": "2026-10-30T18:36:01.697510Z",
       "latest": [
         "9444fb6e133e6626958c646ab1930db56895cc60db03fab61f42f063febdab90"
       ],
@@ -38218,9 +38317,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 8
     },
@@ -38243,7 +38343,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.579166Z",
       "id": "maple|maple-canonical-pcrDevHistory.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:52.188422Z",
+      "last": "2026-10-30T18:36:01.697510Z",
       "latest": [
         "/*/PCR0=01bc3b66d17e3c4683b9c0b7f7a62133cfb00676c539115b1cd78ce7da7cbad79ce241c359ccebe3c310150da69d4ace",
         "/*/PCR0=0212378a181f55e7c2a6d46abe3ed6f3311753b4cff71090722b5f759974a281cea7cb458124cf6b5ef9e9a3c371448a",
@@ -38614,9 +38714,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 346
     },
@@ -38637,7 +38738,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.250298Z",
       "id": "maple|maple-canonical-pcrProd.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:51.611698Z",
+      "last": "2026-10-30T18:36:00.831074Z",
       "latest": [
         "54b9c74fab6ac617c192f8bfbc3f88f0f51e0657b1895127cd784fc200de6702"
       ],
@@ -38663,9 +38764,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 6
     },
@@ -38686,7 +38788,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.250298Z",
       "id": "maple|maple-canonical-pcrProd.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:51.611698Z",
+      "last": "2026-10-30T18:36:00.831074Z",
       "latest": [
         "/PCR0=ada74c7aa10cbde75f83d7ec674cc4fc4a4cf9cc555e367189fbec332dffa985c6082ae4647fd50242a590bf9cd1d3f0",
         "/PCR1=a91689e37a54303051f68263010f397ddfa92d66e17df7a03a6777c33ff1e4fc12b69bbbe786894d43dcba1cf6d60aaa",
@@ -38714,9 +38816,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 14
     },
@@ -38737,7 +38840,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.437053Z",
       "id": "maple|maple-canonical-pcrProdHistory.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:51.860347Z",
+      "last": "2026-10-30T18:36:01.194262Z",
       "latest": [
         "1ebfe7a7ddd6ad28a07baff2272121120e4a9e12006241c7d8417a631ca5c7e9"
       ],
@@ -38763,9 +38866,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 6
     },
@@ -38786,7 +38890,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.437053Z",
       "id": "maple|maple-canonical-pcrProdHistory.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:51.860347Z",
+      "last": "2026-10-30T18:36:01.194262Z",
       "latest": [
         "/*/PCR0=01184a3d1334e46083545043ead8e6afadf8991252bd4e322bafa969d106184bf59d021a5b83a783565c024a5af3920e",
         "/*/PCR0=02a41da2df084fd1dee420d7717bef6dc0120f1d6a0b7fded3f4c7a539be4044b3061c71bc7156731db1fb66494097b0",
@@ -39145,9 +39249,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 334
     },
@@ -39170,7 +39275,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.552693Z",
       "id": "maple|maple-legacy-pcrDev.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.024693Z",
+      "last": "2026-10-30T18:36:01.542310Z",
       "latest": [
         "df5ddc0708bc9f267a0211d7ceb4bb1aa8313a8f966060fe89b0302cd87b1579"
       ],
@@ -39196,9 +39301,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 8
     },
@@ -39221,7 +39327,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.552693Z",
       "id": "maple|maple-legacy-pcrDev.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:52.024693Z",
+      "last": "2026-10-30T18:36:01.542310Z",
       "latest": [
         "/PCR0=fc0040086134b037d0dfd12206ae3ef24d438cc4694db2f1bed7c032787d0fc9206a3d2069044ad84dfc9aea3cbe3a84",
         "/PCR1=a91689e37a54303051f68263010f397ddfa92d66e17df7a03a6777c33ff1e4fc12b69bbbe786894d43dcba1cf6d60aaa",
@@ -39249,9 +39355,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 18
     },
@@ -39274,7 +39381,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.612262Z",
       "id": "maple|maple-legacy-pcrDevHistory.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.263520Z",
+      "last": "2026-10-30T18:36:01.829742Z",
       "latest": [
         "9444fb6e133e6626958c646ab1930db56895cc60db03fab61f42f063febdab90"
       ],
@@ -39300,9 +39407,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 8
     },
@@ -39325,7 +39433,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.612262Z",
       "id": "maple|maple-legacy-pcrDevHistory.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:52.263520Z",
+      "last": "2026-10-30T18:36:01.829742Z",
       "latest": [
         "/*/PCR0=01bc3b66d17e3c4683b9c0b7f7a62133cfb00676c539115b1cd78ce7da7cbad79ce241c359ccebe3c310150da69d4ace",
         "/*/PCR0=0212378a181f55e7c2a6d46abe3ed6f3311753b4cff71090722b5f759974a281cea7cb458124cf6b5ef9e9a3c371448a",
@@ -39696,9 +39804,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 346
     },
@@ -39719,7 +39828,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.408990Z",
       "id": "maple|maple-legacy-pcrProd.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:51.705546Z",
+      "last": "2026-10-30T18:36:01.028547Z",
       "latest": [
         "54b9c74fab6ac617c192f8bfbc3f88f0f51e0657b1895127cd784fc200de6702"
       ],
@@ -39745,9 +39854,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 6
     },
@@ -39768,7 +39878,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.408990Z",
       "id": "maple|maple-legacy-pcrProd.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:51.705546Z",
+      "last": "2026-10-30T18:36:01.028547Z",
       "latest": [
         "/PCR0=ada74c7aa10cbde75f83d7ec674cc4fc4a4cf9cc555e367189fbec332dffa985c6082ae4647fd50242a590bf9cd1d3f0",
         "/PCR1=a91689e37a54303051f68263010f397ddfa92d66e17df7a03a6777c33ff1e4fc12b69bbbe786894d43dcba1cf6d60aaa",
@@ -39796,9 +39906,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 14
     },
@@ -39819,7 +39930,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.486636Z",
       "id": "maple|maple-legacy-pcrProdHistory.json|document SHA-256|published document",
-      "last": "2026-10-29T18:56:51.875071Z",
+      "last": "2026-10-30T18:36:01.298854Z",
       "latest": [
         "1ebfe7a7ddd6ad28a07baff2272121120e4a9e12006241c7d8417a631ca5c7e9"
       ],
@@ -39845,9 +39956,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 6
     },
@@ -39868,7 +39980,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.486636Z",
       "id": "maple|maple-legacy-pcrProdHistory.json|reference entries|published reference set",
-      "last": "2026-10-29T18:56:51.875071Z",
+      "last": "2026-10-30T18:36:01.298854Z",
       "latest": [
         "/*/PCR0=01184a3d1334e46083545043ead8e6afadf8991252bd4e322bafa969d106184bf59d021a5b83a783565c024a5af3920e",
         "/*/PCR0=02a41da2df084fd1dee420d7717bef6dc0120f1d6a0b7fded3f4c7a539be4044b3061c71bc7156731db1fb66494097b0",
@@ -40227,9 +40339,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 334
     },
@@ -40245,7 +40358,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.696035Z",
       "id": "maple|maple-research-client-config|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.572306Z",
+      "last": "2026-10-30T18:36:02.290131Z",
       "latest": [
         "aa5a9c519a419e6bd8cdd6b4224d225004c4264e562090d219c17443c2a49e03"
       ],
@@ -40271,9 +40384,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 1
     },
@@ -40289,7 +40403,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.674243Z",
       "id": "maple|maple-rust-pcr-policy|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.489824Z",
+      "last": "2026-10-30T18:36:02.168516Z",
       "latest": [
         "03f9d8fd5dd944506a90ece4e2bb620a65a8406ed307b063d1456a3245931cd6"
       ],
@@ -40315,9 +40429,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 1
     },
@@ -40333,7 +40448,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.643317Z",
       "id": "maple|maple-typescript-pcr-policy|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.362833Z",
+      "last": "2026-10-30T18:36:02.048068Z",
       "latest": [
         "f001d931e588c0c9b072be4b03b5b54adc94c8f82443b1bc616f7c7c87cb65fb"
       ],
@@ -40359,9 +40474,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 1
     },
@@ -40971,22 +41087,23 @@
       "unique_values": 1
     },
     {
-      "changes": 2,
+      "changes": 3,
       "client_acceptance": null,
       "component": "private-inference-browser-verifier",
       "events": [
         "c3c81c7702c5e5412930",
         "aec87dcce9bdfde13370",
-        "b5466a236bb28e7b7a8f"
+        "b5466a236bb28e7b7a8f",
+        "56b7cfb7f43988f18651"
       ],
-      "evidence": "data/references/observations/raw/private-inference-browser-verifier-9d68c1e1d57d13a8dff88151f9192285c7748578003542dbf4380d006901eb11.bin",
+      "evidence": "data/references/observations/raw/private-inference-browser-verifier-d6c7657ac48ad30048e22e4b3414fdb287605f70368bbd6a705dca2822f7bd67.bin",
       "family": "published document",
       "field": "document SHA-256",
       "first": "2026-10-14T01:36:51.513651Z",
       "id": "private-inference|private-inference-browser-verifier|document SHA-256|published document",
-      "last": "2026-10-29T18:56:55.866339Z",
+      "last": "2026-10-30T18:36:05.819752Z",
       "latest": [
-        "9d68c1e1d57d13a8dff88151f9192285c7748578003542dbf4380d006901eb11"
+        "d6c7657ac48ad30048e22e4b3414fdb287605f70368bbd6a705dca2822f7bd67"
       ],
       "provider": "private-inference",
       "provider_authorization": null,
@@ -41011,14 +41128,15 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 22,
+      "samples": 23,
       "scope": "publication bytes only; no signature or runtime verification",
-      "unique_values": 3
+      "unique_values": 4
     },
     {
-      "changes": 7,
+      "changes": 8,
       "client_acceptance": null,
       "component": "private-inference-chat-html",
       "events": [
@@ -41029,16 +41147,17 @@
         "39088134faffbf2f8022",
         "e91eae9ee79f2f75bb99",
         "d0f01d20c999d5d9abe5",
-        "d2cc6f4c9fb4cc7ebf7a"
+        "d2cc6f4c9fb4cc7ebf7a",
+        "5fbfffb027c63ba51d99"
       ],
-      "evidence": "data/references/observations/raw/private-inference-chat-html-c515a6322b4b25e14a0e5b5c1b2a2b4012358f3989cada324c826973dd4c6460.bin",
+      "evidence": "data/references/observations/raw/private-inference-chat-html-5b6f7d33eb93613ab1de013c7cff1a6cd00fe58c04a195ca37f1e5048fb2fc10.bin",
       "family": "published document",
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:27.288380Z",
       "id": "private-inference|private-inference-chat-html|document SHA-256|published document",
-      "last": "2026-10-29T18:56:54.313556Z",
+      "last": "2026-10-30T18:36:04.406399Z",
       "latest": [
-        "c515a6322b4b25e14a0e5b5c1b2a2b4012358f3989cada324c826973dd4c6460"
+        "5b6f7d33eb93613ab1de013c7cff1a6cd00fe58c04a195ca37f1e5048fb2fc10"
       ],
       "provider": "private-inference",
       "provider_authorization": null,
@@ -41063,14 +41182,15 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
-      "unique_values": 8
+      "unique_values": 9
     },
     {
-      "changes": 5,
+      "changes": 6,
       "client_acceptance": null,
       "component": "private-inference-chat-main",
       "events": [
@@ -41079,16 +41199,17 @@
         "94758fbf9f3f9d9cd8b7",
         "fe86571b774b8c18943b",
         "e02406c8a08dbe460b15",
-        "c1114a4b1fcbaf50dce2"
+        "c1114a4b1fcbaf50dce2",
+        "77e0309834af14eb59e3"
       ],
-      "evidence": "data/references/observations/raw/private-inference-chat-main-cc74f71c0c7623e27b8cca8e35e79060996190536fe45b1090c2b6d20baf0753.bin",
+      "evidence": "data/references/observations/raw/private-inference-chat-main-8b50bd1b31ddbdcf328e2c4a2ff7e96a64d545ea0ea3fead3140b4689ab213a2.bin",
       "family": "published document",
       "field": "document SHA-256",
       "first": "2026-10-14T01:36:51.358139Z",
       "id": "private-inference|private-inference-chat-main|document SHA-256|published document",
-      "last": "2026-10-29T18:56:55.028281Z",
+      "last": "2026-10-30T18:36:04.655411Z",
       "latest": [
-        "cc74f71c0c7623e27b8cca8e35e79060996190536fe45b1090c2b6d20baf0753"
+        "8b50bd1b31ddbdcf328e2c4a2ff7e96a64d545ea0ea3fead3140b4689ab213a2"
       ],
       "provider": "private-inference",
       "provider_authorization": null,
@@ -41113,11 +41234,12 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 22,
+      "samples": 23,
       "scope": "publication bytes only; no signature or runtime verification",
-      "unique_values": 6
+      "unique_values": 7
     },
     {
       "changes": 2,
@@ -41133,7 +41255,7 @@
       "field": "document SHA-256",
       "first": "2026-10-14T01:24:25.730881Z",
       "id": "privatemode|privatemode-manifest|document SHA-256|published document",
-      "last": "2026-10-29T18:56:52.649953Z",
+      "last": "2026-10-30T18:36:02.399908Z",
       "latest": [
         "cb8fe2f3b8973b8d12f99c3340d4102c642e6be40e26c2a9070e1a630e420bab"
       ],
@@ -41160,9 +41282,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "publication bytes only; no signature or runtime verification",
       "unique_values": 3
     },
@@ -41180,7 +41303,7 @@
       "field": "reference entries",
       "first": "2026-10-14T01:24:25.730881Z",
       "id": "privatemode|privatemode-manifest|reference entries|published reference set",
-      "last": "2026-10-29T18:56:52.649953Z",
+      "last": "2026-10-30T18:36:02.399908Z",
       "latest": [
         "/Policies/policy-key=26f85a9a28512d1ef510ea4a8bce93da8f6099bf3cb52e43331e92b498a63401",
         "/Policies/policy-key=37933632fea007ec938424028d748ca453e9a7e29632a915624a0874980a4809",
@@ -41226,9 +41349,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 25,
+      "samples": 26,
       "scope": "digest-shaped entries in captured JSON; not proof of client acceptance",
       "unique_values": 43
     },
@@ -42099,12 +42223,12 @@
         "06fcf8b7351b53447be0",
         "40bb48c394fa3cd452f9"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "bundle_digest",
       "first": "2026-04-26T22:43:04Z",
       "id": "tinfoil|tinfoil/router|bundle_digest|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "adc71cdb94b8762993777156f3290463f3a8ee2ea42665289a83d502cdf69d76"
       ],
@@ -42295,9 +42419,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 187,
+      "samples": 188,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 52
     },
@@ -42359,12 +42484,12 @@
         "4f5f0001be4ccd4d4790",
         "3a48d8be7548a0914008"
       ],
-      "evidence": "data/snapshots/2026-10-29.json",
+      "evidence": "data/snapshots/2026-10-30.json",
       "family": "reported workload",
       "field": "measurement",
       "first": "2026-04-26T22:43:04Z",
       "id": "tinfoil|tinfoil/router|measurement|reported workload",
-      "last": "2026-10-29T18:56:38.090640Z",
+      "last": "2026-10-30T18:35:46.561516Z",
       "latest": [
         "e716274321b31eaf1301d3eddfbe477da1a69c6a8afeea9f8cd36b6546d94728ffb88b4eb11f0a4cc76e40e3b294b8a7"
       ],
@@ -42555,9 +42680,10 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
-      "samples": 187,
+      "samples": 188,
       "scope": "historical adapter report; not independently verified",
       "unique_values": 52
     }
