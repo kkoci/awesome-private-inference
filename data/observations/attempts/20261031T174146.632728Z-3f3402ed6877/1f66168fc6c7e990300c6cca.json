@@ -1,0 +1,12 @@
+{
+  "model": "Qwen3-32B-TEE",
+  "observation_id": "20261031T174146.632728Z-3f3402ed6877/1f66168fc6c7e990300c6cca",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "chutes",
+  "reason": "pending",
+  "route_id": "chutes/Qwen3-32B-TEE",
+  "run_id": "20261031T174146.632728Z-3f3402ed6877",
+  "schema_version": "1",
+  "started_at": "2026-10-31T17:41:46.632767Z"
+}
