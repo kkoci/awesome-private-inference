@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "chutes/GLM-5.2-TEE"
+  ],
+  "component_id": null,
+  "event_id": "chg-2002383e4cdf9e6e1ca0a4a1626a9dba",
+  "field": "report_data_binds_key",
+  "first_seen_at": "2026-11-05T20:38:29Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-11-05T20:38:29Z",
+  "new_observation_id": "20261105T203817.343595Z-74bbbea66e62/741aa5a30354216131743478",
+  "new_observation_path": "observations/records/20261105T203817.343595Z-74bbbea66e62/741aa5a30354216131743478.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261104T202515.608177Z-1e1c512c5c1a/741aa5a30354216131743478",
+  "old_observation_path": "observations/records/20261104T202515.608177Z-1e1c512c5c1a/741aa5a30354216131743478.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/c9bf1256d7473ce9cc31f5ef1109ffd3b4d63ee2ca7373b5ea1c171bac748a42.json",
+  "old_value": true,
+  "priority": "normal",
+  "route_id": "chutes/GLM-5.2-TEE",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}

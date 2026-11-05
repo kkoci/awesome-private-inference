@@ -1,0 +1,20 @@
+{
+  "affected_routes": [
+    "maple-tinfoil",
+    "maple-privatemode"
+  ],
+  "current_sha256": "c519995f48653b263ba3ffbd8663f01649397e01ca1f0d01dd9f1671c5646767",
+  "current_status": "legacy",
+  "event_id": "ca2358f193f269eee7e90db0017708a12cca8d7b3686f934054886d977231199",
+  "kind": "reference_mismatch",
+  "previous_sha256": "289634b98aca6808338bad42363655c54a18bdb251a63f809fbd6e6c3c1d9338",
+  "previous_status": "canonical",
+  "priority": "high",
+  "provider": "maple",
+  "route_id": "publication/maple-mirror-pcrDev.json",
+  "source_id": "maple-mirror-pcrDev.json",
+  "timestamp": "2026-11-05T20:38:30.590542Z",
+  "type": "reference_mismatch",
+  "url": "https://raw.githubusercontent.com/OpenSecretCloud/opensecret/master/pcrDev.json",
+  "verification": "byte_comparison_only"
+}
