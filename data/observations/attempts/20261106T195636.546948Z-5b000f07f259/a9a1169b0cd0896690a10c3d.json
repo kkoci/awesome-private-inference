@@ -1,0 +1,12 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "observation_id": "20261106T195636.546948Z-5b000f07f259/a9a1169b0cd0896690a10c3d",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "near-ai",
+  "reason": "pending",
+  "route_id": "near-ai/openai/gpt-oss-120b",
+  "run_id": "20261106T195636.546948Z-5b000f07f259",
+  "schema_version": "1",
+  "started_at": "2026-11-06T19:56:36.546992Z"
+}
