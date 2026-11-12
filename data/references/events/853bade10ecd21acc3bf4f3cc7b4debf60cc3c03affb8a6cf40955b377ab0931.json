@@ -1,0 +1,20 @@
+{
+  "affected_routes": [
+    "maple-tinfoil",
+    "maple-privatemode"
+  ],
+  "current_sha256": "f4874612e739f19bc6eadac9533da5132532ed201b6821f287c0d1f7cb2a21bd",
+  "current_status": "observed",
+  "event_id": "853bade10ecd21acc3bf4f3cc7b4debf60cc3c03affb8a6cf40955b377ab0931",
+  "kind": "publication_changed",
+  "previous_sha256": "f9f270099931ad726411eae0a0007910d1407a16fc8d54907dd2c7dee8833e78",
+  "previous_status": "observed",
+  "priority": "medium",
+  "provider": "maple",
+  "route_id": "publication/maple-canonical-pcrProd.json",
+  "source_id": "maple-canonical-pcrProd.json",
+  "timestamp": "2026-11-12T20:47:41.041904Z",
+  "type": "publication_changed",
+  "url": "https://raw.githubusercontent.com/MaplePrivacyLabs/Maple/master/services/opensecret/pcrProd.json",
+  "verification": "not_performed"
+}
