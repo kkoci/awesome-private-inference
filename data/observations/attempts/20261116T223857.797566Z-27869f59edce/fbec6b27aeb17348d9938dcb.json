@@ -1,0 +1,12 @@
+{
+  "model": "router",
+  "observation_id": "20261116T223857.797566Z-27869f59edce/fbec6b27aeb17348d9938dcb",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "tinfoil",
+  "reason": "pending",
+  "route_id": "tinfoil/router",
+  "run_id": "20261116T223857.797566Z-27869f59edce",
+  "schema_version": "1",
+  "started_at": "2026-11-16T22:38:57.797590Z"
+}

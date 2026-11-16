@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "near-ai/openai/gpt-oss-120b"
+  ],
+  "component_id": null,
+  "event_id": "chg-cadfe60a702e56db604c3dbc055c96d2",
+  "field": null,
+  "first_seen_at": "2026-11-16T22:38:57.732475Z",
+  "kind": "route_retired",
+  "last_seen_at": "2026-11-16T22:38:57.732475Z",
+  "new_observation_id": "20261116T223857.732435Z-46696f875564/a9a1169b0cd0896690a10c3d",
+  "new_observation_path": "observations/records/20261116T223857.732435Z-46696f875564/a9a1169b0cd0896690a10c3d.json",
+  "new_raw_evidence_ref": null,
+  "new_value": "retired",
+  "old_observation_id": "20261115T192152.887524Z-dca9e8c35950/a9a1169b0cd0896690a10c3d",
+  "old_observation_path": "observations/records/20261115T192152.887524Z-dca9e8c35950/a9a1169b0cd0896690a10c3d.json",
+  "old_raw_evidence_ref": null,
+  "old_value": "unavailable",
+  "priority": "normal",
+  "route_id": "near-ai/openai/gpt-oss-120b",
+  "trust": "declared",
+  "uncertainty": null
+}

@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "aci-gateway/inference.phala.com"
+  ],
+  "component_id": null,
+  "event_id": "chg-41d472a71b8e04a496eb7e4073b9c487",
+  "field": null,
+  "first_seen_at": "2026-11-16T22:39:02Z",
+  "kind": "coverage_restored",
+  "last_seen_at": "2026-11-16T22:39:02Z",
+  "new_observation_id": "20261116T223857.797566Z-27869f59edce/4437789d9406a763a912f52a",
+  "new_observation_path": "observations/records/20261116T223857.797566Z-27869f59edce/4437789d9406a763a912f52a.json",
+  "new_raw_evidence_ref": "observations/evidence/sha256/03f521a06592addbdd2813a3a1531b5b7c11abfa1345bbd5f7cab07856caa9a2.json",
+  "new_value": "verified",
+  "old_observation_id": "20261115T192152.887524Z-dca9e8c35950/4437789d9406a763a912f52a",
+  "old_observation_path": "observations/records/20261115T192152.887524Z-dca9e8c35950/4437789d9406a763a912f52a.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/716ae3a8ff9226e36bc9a1f8422aaebc8c91376c8ecdeda55ad98c30e0dd971a.json",
+  "old_value": "not_checked",
+  "priority": "normal",
+  "route_id": "aci-gateway/inference.phala.com",
+  "trust": "adapter_accepted",
+  "uncertainty": null
+}

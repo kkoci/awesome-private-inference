@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "aci-gateway/tee.redpill.ai"
+  ],
+  "component_id": null,
+  "event_id": "chg-0a235cbc1e5df86111f753b06053e722",
+  "field": "verifier_revision",
+  "first_seen_at": "2026-11-16T22:39:02Z",
+  "kind": "instrument_changed",
+  "last_seen_at": "2026-11-16T22:39:02Z",
+  "new_observation_id": "20261116T223857.797566Z-27869f59edce/3ffbae04915bf04dfe8f6ba0",
+  "new_observation_path": "observations/records/20261116T223857.797566Z-27869f59edce/3ffbae04915bf04dfe8f6ba0.json",
+  "new_raw_evidence_ref": "observations/evidence/sha256/e6c1350de56048639bc77714917ff6e695ac77d6da028267e0658a0e0961bb4f.json",
+  "new_value": "fbbacae251f699bc9a1a890984a310fb9a92ccb1c36db56182431c7bac964975",
+  "old_observation_id": "20261115T192152.887524Z-dca9e8c35950/3ffbae04915bf04dfe8f6ba0",
+  "old_observation_path": "observations/records/20261115T192152.887524Z-dca9e8c35950/3ffbae04915bf04dfe8f6ba0.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/6886a8630603dca0264c327761fc2a7dbcfa5e32d8e8fa224e8c235c49c0f750.json",
+  "old_value": "7c9b07f0594960797724b3782c31a6cabea06ed268f1cde64fbd6aa91ac81785",
+  "priority": "normal",
+  "route_id": "aci-gateway/tee.redpill.ai",
+  "trust": "adapter_accepted",
+  "uncertainty": null
+}

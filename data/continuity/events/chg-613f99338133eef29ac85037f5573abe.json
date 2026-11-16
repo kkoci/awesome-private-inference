@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "chutes/DeepSeek-V3.2-TEE"
+  ],
+  "component_id": null,
+  "event_id": "chg-613f99338133eef29ac85037f5573abe",
+  "field": "report_data_binds_key",
+  "first_seen_at": "2026-11-16T22:39:08Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-11-16T22:39:08Z",
+  "new_observation_id": "20261116T223857.797566Z-27869f59edce/a0b09435b8e2f51056367ab9",
+  "new_observation_path": "observations/records/20261116T223857.797566Z-27869f59edce/a0b09435b8e2f51056367ab9.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261115T192152.887524Z-dca9e8c35950/a0b09435b8e2f51056367ab9",
+  "old_observation_path": "observations/records/20261115T192152.887524Z-dca9e8c35950/a0b09435b8e2f51056367ab9.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/9a28cc07122246806dead592ed5cd3d0b07a3f646a5dc829094977fe3805756f.json",
+  "old_value": true,
+  "priority": "normal",
+  "route_id": "chutes/DeepSeek-V3.2-TEE",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}

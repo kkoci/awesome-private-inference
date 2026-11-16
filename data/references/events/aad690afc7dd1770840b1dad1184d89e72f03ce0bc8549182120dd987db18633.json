@@ -1,0 +1,21 @@
+{
+  "affected_routes": [
+    "private-inference-standard",
+    "private-inference-zdr",
+    "private-inference-private"
+  ],
+  "current_sha256": "bbb9965ef104f335056acbf2b52c4be9b9ccd08657790a5e943101d9ec00f76b",
+  "current_status": "observed",
+  "event_id": "aad690afc7dd1770840b1dad1184d89e72f03ce0bc8549182120dd987db18633",
+  "kind": "publication_recovered",
+  "previous_sha256": "bbb9965ef104f335056acbf2b52c4be9b9ccd08657790a5e943101d9ec00f76b",
+  "previous_status": "error",
+  "priority": "medium",
+  "provider": "private-inference",
+  "route_id": "publication/private-inference-chat-html",
+  "source_id": "private-inference-chat-html",
+  "timestamp": "2026-11-16T22:39:12.908135Z",
+  "type": "publication_recovered",
+  "url": "https://privateinference.gg/chat",
+  "verification": "not_performed"
+}
