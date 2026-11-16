@@ -1,0 +1,12 @@
+{
+  "model": "inference.phala.com",
+  "observation_id": "20261116T225246.710486Z-8f1f72665607/4437789d9406a763a912f52a",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "aci-gateway",
+  "reason": "pending",
+  "route_id": "aci-gateway/inference.phala.com",
+  "run_id": "20261116T225246.710486Z-8f1f72665607",
+  "schema_version": "1",
+  "started_at": "2026-11-16T22:52:46.710533Z"
+}

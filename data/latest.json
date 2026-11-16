@@ -22,10 +22,10 @@
           "os_image_event_bound": true,
           "quote_report_data_bound": true,
           "raw_evidence_completeness": "complete",
-          "raw_evidence_ref": "observations/evidence/sha256/045f5bafda5aca42343e0d32455f87f8de1ca136de9a88c2b6c7dbfcebcd01b4.json",
-          "raw_evidence_sha256": "045f5bafda5aca42343e0d32455f87f8de1ca136de9a88c2b6c7dbfcebcd01b4",
+          "raw_evidence_ref": "observations/evidence/sha256/d80b3815c8cae365e807868c3cfe4ffe93008fecd03aa183f113c5db094380cb.json",
+          "raw_evidence_sha256": "d80b3815c8cae365e807868c3cfe4ffe93008fecd03aa183f113c5db094380cb",
           "repo_commit": "e9b6ae8a22ff9d8623b280d53bb4164cfe9d0521",
-          "sessions": "80/80 with evidence",
+          "sessions": "81/81 with evidence",
           "tcb_status": "UpToDate",
           "tee_only_domains": [
             "tee.redpill.ai",
@@ -39,15 +39,15 @@
         "error": null,
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:02Z",
-          "last_capture_at": "2026-11-16T22:39:02Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
+          "last_capture_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
         "latency_s": 0.0,
         "model": "api.redpill.ai",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/00d71b240a1e65dce0fd7c79",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/00d71b240a1e65dce0fd7c79",
         "outcome": "rejected",
         "outcome_reason": "unspecified",
         "outcome_reason_detail": "failed: attested serving for this hostname",
@@ -87,7 +87,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       },
       {
         "attestation_type": "aci-gateway",
@@ -110,10 +110,10 @@
           "os_image_event_bound": true,
           "quote_report_data_bound": true,
           "raw_evidence_completeness": "complete",
-          "raw_evidence_ref": "observations/evidence/sha256/03f521a06592addbdd2813a3a1531b5b7c11abfa1345bbd5f7cab07856caa9a2.json",
-          "raw_evidence_sha256": "03f521a06592addbdd2813a3a1531b5b7c11abfa1345bbd5f7cab07856caa9a2",
+          "raw_evidence_ref": "observations/evidence/sha256/231ad1613c1ebca17da200a17114cb88e4461435c7d619e6c7513c8cc58fd2ac.json",
+          "raw_evidence_sha256": "231ad1613c1ebca17da200a17114cb88e4461435c7d619e6c7513c8cc58fd2ac",
           "repo_commit": "e9b6ae8a22ff9d8623b280d53bb4164cfe9d0521",
-          "sessions": "80/80 with evidence",
+          "sessions": "81/81 with evidence",
           "tcb_status": "UpToDate",
           "tee_only_domains": [
             "tee.redpill.ai",
@@ -126,16 +126,16 @@
         },
         "error": null,
         "freshness": {
-          "last_adapter_verified_at": "2026-11-16T22:39:02Z",
-          "last_attempt_at": "2026-11-16T22:39:02Z",
-          "last_capture_at": "2026-11-16T22:39:02Z",
+          "last_adapter_verified_at": "2026-11-16T22:52:52Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
+          "last_capture_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
         "latency_s": 0.0,
         "model": "inference.phala.com",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/4437789d9406a763a912f52a",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/4437789d9406a763a912f52a",
         "outcome": "verified",
         "outcome_reason": "unspecified",
         "outcome_reason_detail": "quote, event log, compose, keyset, pinned boot registers and production image archive all verified; upstream model CVMs and the paid request path remain unverified",
@@ -175,7 +175,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": true,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       },
       {
         "attestation_type": "aci-gateway",
@@ -198,10 +198,10 @@
           "os_image_event_bound": true,
           "quote_report_data_bound": true,
           "raw_evidence_completeness": "complete",
-          "raw_evidence_ref": "observations/evidence/sha256/e6c1350de56048639bc77714917ff6e695ac77d6da028267e0658a0e0961bb4f.json",
-          "raw_evidence_sha256": "e6c1350de56048639bc77714917ff6e695ac77d6da028267e0658a0e0961bb4f",
+          "raw_evidence_ref": "observations/evidence/sha256/ce4be77aaee7b2432aff8eb7d54e0142995ae7a72cd614e840ac86d369c40db3.json",
+          "raw_evidence_sha256": "ce4be77aaee7b2432aff8eb7d54e0142995ae7a72cd614e840ac86d369c40db3",
           "repo_commit": "e9b6ae8a22ff9d8623b280d53bb4164cfe9d0521",
-          "sessions": "80/80 with evidence",
+          "sessions": "81/81 with evidence",
           "tcb_status": "UpToDate",
           "tee_only_domains": [
             "tee.redpill.ai",
@@ -214,16 +214,16 @@
         },
         "error": null,
         "freshness": {
-          "last_adapter_verified_at": "2026-11-16T22:39:02Z",
-          "last_attempt_at": "2026-11-16T22:39:02Z",
-          "last_capture_at": "2026-11-16T22:39:02Z",
+          "last_adapter_verified_at": "2026-11-16T22:52:52Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
+          "last_capture_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": "2026-10-14T01:46:15.925973Z"
         },
         "latency_s": 0.0,
         "model": "tee.redpill.ai",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/3ffbae04915bf04dfe8f6ba0",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/3ffbae04915bf04dfe8f6ba0",
         "outcome": "verified",
         "outcome_reason": "unspecified",
         "outcome_reason_detail": "quote, event log, compose, keyset, pinned boot registers and production image archive all verified; upstream model CVMs and the paid request path remain unverified",
@@ -263,7 +263,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": true,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       }
     ],
     "chutes": [
@@ -273,7 +273,7 @@
         "error": "CHUTES_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
           "last_capture_at": "2026-11-15T19:22:14Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
@@ -281,7 +281,7 @@
         },
         "latency_s": 0.0,
         "model": "DeepSeek-V3.2-TEE",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/a0b09435b8e2f51056367ab9",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/a0b09435b8e2f51056367ab9",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -321,7 +321,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       },
       {
         "attestation_type": "skipped",
@@ -329,7 +329,7 @@
         "error": "CHUTES_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
           "last_capture_at": "2026-11-15T19:22:17Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
@@ -337,7 +337,7 @@
         },
         "latency_s": 0.0,
         "model": "GLM-5.1-TEE",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/b235d29e0611a47a6545e128",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/b235d29e0611a47a6545e128",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -377,7 +377,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       },
       {
         "attestation_type": "skipped",
@@ -385,7 +385,7 @@
         "error": "CHUTES_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
           "last_capture_at": "2026-11-15T19:22:15Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
@@ -393,7 +393,7 @@
         },
         "latency_s": 0.0,
         "model": "GLM-5.2-TEE",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/741aa5a30354216131743478",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/741aa5a30354216131743478",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -433,7 +433,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       },
       {
         "attestation_type": "skipped",
@@ -441,7 +441,7 @@
         "error": "CHUTES_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
           "last_capture_at": "2026-11-15T19:22:18Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
@@ -449,7 +449,7 @@
         },
         "latency_s": 0.0,
         "model": "Kimi-K2.6-TEE",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/5c27791fdcd8f01aa06a6ee2",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/5c27791fdcd8f01aa06a6ee2",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -489,7 +489,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       },
       {
         "attestation_type": "retired",
@@ -525,7 +525,7 @@
         "error": "CHUTES_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
           "last_capture_at": "2026-11-15T19:22:16Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
@@ -533,7 +533,7 @@
         },
         "latency_s": 0.0,
         "model": "gemma-4-31B-TEE",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/bec27c693c1b775b82d4b459",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/bec27c693c1b775b82d4b459",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -573,7 +573,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       }
     ],
     "near-ai": [
@@ -583,14 +583,14 @@
         "error": "NEAR_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:02Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
         "latency_s": 0.0,
         "model": "Qwen/Qwen3.8-27B",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/dfb43c43177f843aa81b4884",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/dfb43c43177f843aa81b4884",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -630,7 +630,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       },
       {
         "attestation_type": "retired",
@@ -666,14 +666,14 @@
         "error": "NEAR_API_KEY not set",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:02Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
         "latency_s": 0.0,
         "model": "z-ai/glm-5.3-flash",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/c6c0aa8db6389321c609e8e4",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/c6c0aa8db6389321c609e8e4",
         "outcome": "not_checked",
         "outcome_reason": "missing_credentials",
         "outcome_reason_detail": null,
@@ -713,7 +713,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       },
       {
         "attestation_type": "retired",
@@ -854,15 +854,15 @@
         "error": "TCB below AMD-published minimum: {'snp': '0x17 < 0x1d', 'ucode': '0x54 < 0x56'}",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:02Z",
-          "last_capture_at": "2026-11-16T22:39:02Z",
+          "last_attempt_at": "2026-11-16T22:52:52Z",
+          "last_capture_at": "2026-11-16T22:52:52Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
         "latency_s": 0.0,
         "model": "router",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/fbec6b27aeb17348d9938dcb",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/fbec6b27aeb17348d9938dcb",
         "outcome": "rejected",
         "outcome_reason": "unspecified",
         "outcome_reason_detail": "TCB below AMD-published minimum: {'snp': '0x17 < 0x1d', 'ucode': '0x54 < 0x56'}",
@@ -902,7 +902,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:02Z"
+        "verified_at": "2026-11-16T22:52:52Z"
       }
     ],
     "venice": [
@@ -912,15 +912,15 @@
         "error": "no TEE attestation available for this model (404)",
         "freshness": {
           "last_adapter_verified_at": null,
-          "last_attempt_at": "2026-11-16T22:39:05Z",
+          "last_attempt_at": "2026-11-16T22:52:56Z",
           "last_capture_at": "2026-10-13T19:51:41Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
-        "latency_s": 0.13,
+        "latency_s": 0.14,
         "model": "e2ee-gemma-4-31b",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/016d51929979d7ad52446170",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/016d51929979d7ad52446170",
         "outcome": "unavailable",
         "outcome_reason": "evidence_missing",
         "outcome_reason_detail": null,
@@ -960,7 +960,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:05Z"
+        "verified_at": "2026-11-16T22:52:56Z"
       },
       {
         "attestation_type": "venice",
@@ -1032,15 +1032,15 @@
         "error": null,
         "freshness": {
           "last_adapter_verified_at": "2026-11-15T19:22:05Z",
-          "last_attempt_at": "2026-11-16T22:39:04Z",
-          "last_capture_at": "2026-11-16T22:39:04Z",
+          "last_attempt_at": "2026-11-16T22:52:54Z",
+          "last_capture_at": "2026-11-16T22:52:54Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
-        "latency_s": 1.14,
+        "latency_s": 1.35,
         "model": "e2ee-glm-5-1",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/3f403121a4cef3606894d7fe",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/3f403121a4cef3606894d7fe",
         "outcome": "rejected",
         "outcome_reason": "adapter_rejected",
         "outcome_reason_detail": "gateway attestation does not cover the model host",
@@ -1080,7 +1080,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "04c4201704005a835ae62f8bffea2100cdb059a5a5bd0e79e5306bd3fd1358b7ab854994006c40b075724b3681b5ddd3ac455a2e7ec5d8e57a28b90f97a2f99c1f",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:04Z"
+        "verified_at": "2026-11-16T22:52:54Z"
       },
       {
         "attestation_type": "venice",
@@ -1152,15 +1152,15 @@
         "error": null,
         "freshness": {
           "last_adapter_verified_at": "2026-11-15T19:22:08Z",
-          "last_attempt_at": "2026-11-16T22:39:06Z",
-          "last_capture_at": "2026-11-16T22:39:06Z",
+          "last_attempt_at": "2026-11-16T22:52:58Z",
+          "last_capture_at": "2026-11-16T22:52:58Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
-        "latency_s": 0.91,
+        "latency_s": 1.6,
         "model": "e2ee-gpt-oss-120b-p",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/7f665a507cb4da42f39d662c",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/7f665a507cb4da42f39d662c",
         "outcome": "rejected",
         "outcome_reason": "adapter_rejected",
         "outcome_reason_detail": "gateway attestation does not cover the model host",
@@ -1200,7 +1200,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "04c4201704005a835ae62f8bffea2100cdb059a5a5bd0e79e5306bd3fd1358b7ab854994006c40b075724b3681b5ddd3ac455a2e7ec5d8e57a28b90f97a2f99c1f",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:06Z"
+        "verified_at": "2026-11-16T22:52:58Z"
       },
       {
         "attestation_type": "venice",
@@ -1219,8 +1219,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "ac7c10d808a89127f78d39e61c380fab9a8727cc423778ed2564e65f26a9a3b8",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "3f71b4ce56e1792c84072807ec33ae5b568cf81e60cf4554045732fb8f83d502",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1231,8 +1231,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "1e72959e814d78de6f65ca342573f59997b152161921cef4000e69c6370c98b2",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "3a5f20d755b4c5920d9b0ef3dbc4dff9bd6bb6c3083744c913d6ce8091b3abe7",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1243,8 +1243,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "9826b14cb5c5329436b4733c81228c61ca972035b7c31d6146999e3a00e82b5f",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "dad51fb1a2603b36a6c3d33efadbe4613cd4dfc73e676b37ccb87a8ab17aba86",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1255,8 +1255,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "9943998ef69adcbff7d68198397b51e3c410d42a6986b63d0816f01a5fb6171e",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "f1c753a5e91670303e43ea188d8fa0dff502aaceda211d66492c5381323a99df",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1267,8 +1267,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "e1c94c4683430966b5b0b5e35497361ef1ad0a6343df3816fb8cce062f623d94",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "05d4b1f237033dc4e54774d23fb4ed9d23b82027abbec0fb19cd3ee600599179",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1279,8 +1279,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "f48c174f98fc237c3628adfaf53b0565e857414c2df9d9db26269b337769bf45",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "2faa199f65b53178bbfed794e34c5c080742ff8f7d2d43139acee1534ca0f3da",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1291,8 +1291,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "0e361d162bb292aa1ffe2f2521c08d3d401cac17f1a42cb2b96255bf9a3239af",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "8fad14f191697d92dcc90314f3b38580d8ee0d7868b53687bbc7390a5aa9a38b",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1303,8 +1303,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "14e62c5230e3bc92be2d1ba1847b5cdd711c3ee106b814b1d34935d976a85ae2",
-                "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+                "jwt_sha256": "03c6ac2014538d9c02a8b04d348fa56f6ec0598b528e1170d13d3994d68b82e7",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1314,8 +1314,8 @@
             },
             "platform": {
               "iss": "https://nras.attestation.nvidia.com",
-              "jwt_sha256": "438fb66500935e9a5e331d1daca6617016aa64b00fcca968b73fa28e9305fe2c",
-              "kid": "nv-eat-kid-prod-20261116191117867-36dd2f90-5708-4a88-a83e-71fe5b95f8d7",
+              "jwt_sha256": "f69eb40ebad8d158212ec59871ce90f0bee6e11d2654d413bddd8ec037bb0ec4",
+              "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
               "nonce_bound": true,
               "ok": true,
               "signature_verified": true,
@@ -1338,16 +1338,16 @@
         },
         "error": null,
         "freshness": {
-          "last_adapter_verified_at": "2026-11-16T22:39:05Z",
-          "last_attempt_at": "2026-11-16T22:39:05Z",
-          "last_capture_at": "2026-11-16T22:39:05Z",
+          "last_adapter_verified_at": "2026-11-16T22:52:56Z",
+          "last_attempt_at": "2026-11-16T22:52:56Z",
+          "last_capture_at": "2026-11-16T22:52:56Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
-        "latency_s": 1.67,
+        "latency_s": 1.96,
         "model": "e2ee-qwen3-6-35b-a3b",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/4f3fb84ea047d1d01d3bfbd4",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/4f3fb84ea047d1d01d3bfbd4",
         "outcome": "verified",
         "outcome_reason": "adapter_accepted",
         "outcome_reason_detail": null,
@@ -1387,7 +1387,7 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "046da5019dcc34e836adcf1d542cceee52f223fcd2359425f3b4b7c29bf31f2ecab8c4534912b038b75b0066816adb7680641f931dd67bbaef7a1e510a8e72510d",
         "valid": true,
-        "verified_at": "2026-11-16T22:39:05Z"
+        "verified_at": "2026-11-16T22:52:56Z"
       },
       {
         "attestation_type": "venice",
@@ -1410,8 +1410,8 @@
                 "dbgstat": "disabled",
                 "hwmodel": "GH100",
                 "iss": "https://nras.attestation.nvidia.com",
-                "jwt_sha256": "275a06a06567cb025c4e729c21f3fa1369109e0dbfbcbf5e51a4dd003f9d408f",
-                "kid": "nv-eat-kid-prod-20261116190111178-15105ada-7039-4e35-b559-29c2db0e81b8",
+                "jwt_sha256": "fa60ec8cac58513fb86592b30f4cd8275afdf26c86edd8291cc0b08d4150fff4",
+                "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
                 "nonce_bound": true,
                 "ok": true,
                 "signature_verified": true,
@@ -1421,8 +1421,8 @@
             },
             "platform": {
               "iss": "https://nras.attestation.nvidia.com",
-              "jwt_sha256": "33820c5502d1c7cb86963b71dea3d7a7b9efff4c3fb84d6262e1d297c5353828",
-              "kid": "nv-eat-kid-prod-20261116190111178-15105ada-7039-4e35-b559-29c2db0e81b8",
+              "jwt_sha256": "4e09db067ada0c1a2d4913ba66f6d11f39dc1f499abecc31009f9fe47809cb6d",
+              "kid": "nv-eat-kid-prod-20261116190419156-07dacf39-bd76-461b-aa85-e1dbc21af84e",
               "nonce_bound": true,
               "ok": true,
               "signature_verified": true,
@@ -1487,15 +1487,15 @@
         "error": null,
         "freshness": {
           "last_adapter_verified_at": "2026-11-15T19:22:09Z",
-          "last_attempt_at": "2026-11-16T22:39:08Z",
-          "last_capture_at": "2026-11-16T22:39:08Z",
+          "last_attempt_at": "2026-11-16T22:53:00Z",
+          "last_capture_at": "2026-11-16T22:53:00Z",
           "last_cryptographic_verification_at": null,
           "last_policy_review_at": null,
           "last_triage_at": null
         },
-        "latency_s": 2.06,
+        "latency_s": 2.5,
         "model": "e2ee-qwen3-6-35b-a3b-uncensored-p",
-        "observation_id": "20261116T223857.797566Z-27869f59edce/66573e9817f2d95025f0dec4",
+        "observation_id": "20261116T225246.710486Z-8f1f72665607/66573e9817f2d95025f0dec4",
         "outcome": "rejected",
         "outcome_reason": "adapter_rejected",
         "outcome_reason_detail": "gateway attestation does not cover the model host",
@@ -1535,52 +1535,52 @@
         "signing_algo": "ecdsa",
         "signing_public_key": "04c4201704005a835ae62f8bffea2100cdb059a5a5bd0e79e5306bd3fd1358b7ab854994006c40b075724b3681b5ddd3ac455a2e7ec5d8e57a28b90f97a2f99c1f",
         "valid": false,
-        "verified_at": "2026-11-16T22:39:08Z"
+        "verified_at": "2026-11-16T22:53:00Z"
       }
     ]
   },
-  "generated_at": "2026-11-16T22:38:57.797590Z",
-  "git_sha": "36d8c05c33da8395a9cc454791c26c3a0bb3e9a5",
+  "generated_at": "2026-11-16T22:52:46.710533Z",
+  "git_sha": "1f6a5ebad5a6e9df9fe28bfc1ca06e3e4af5e78f",
   "pricing": {},
   "route_observations": {
     "aci-gateway/api.redpill.ai": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:02Z",
-        "last_capture_at": "2026-11-16T22:39:02Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
+        "last_capture_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/00d71b240a1e65dce0fd7c79",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/00d71b240a1e65dce0fd7c79",
       "outcome": "rejected",
       "reason": "unspecified",
       "row_status": "unknown"
     },
     "aci-gateway/inference.phala.com": {
       "freshness": {
-        "last_adapter_verified_at": "2026-11-16T22:39:02Z",
-        "last_attempt_at": "2026-11-16T22:39:02Z",
-        "last_capture_at": "2026-11-16T22:39:02Z",
+        "last_adapter_verified_at": "2026-11-16T22:52:52Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
+        "last_capture_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/4437789d9406a763a912f52a",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/4437789d9406a763a912f52a",
       "outcome": "verified",
       "reason": "unspecified",
       "row_status": "current"
     },
     "aci-gateway/tee.redpill.ai": {
       "freshness": {
-        "last_adapter_verified_at": "2026-11-16T22:39:02Z",
-        "last_attempt_at": "2026-11-16T22:39:02Z",
-        "last_capture_at": "2026-11-16T22:39:02Z",
+        "last_adapter_verified_at": "2026-11-16T22:52:52Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
+        "last_capture_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": "2026-10-14T01:46:15.925973Z"
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/3ffbae04915bf04dfe8f6ba0",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/3ffbae04915bf04dfe8f6ba0",
       "outcome": "verified",
       "reason": "unspecified",
       "row_status": "current"
@@ -1588,13 +1588,13 @@
     "chutes/DeepSeek-V3.2-TEE": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
         "last_capture_at": "2026-11-15T19:22:14Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/a0b09435b8e2f51056367ab9",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/a0b09435b8e2f51056367ab9",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1602,13 +1602,13 @@
     "chutes/GLM-5.1-TEE": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
         "last_capture_at": "2026-11-15T19:22:17Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/b235d29e0611a47a6545e128",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/b235d29e0611a47a6545e128",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1616,13 +1616,13 @@
     "chutes/GLM-5.2-TEE": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
         "last_capture_at": "2026-11-15T19:22:15Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/741aa5a30354216131743478",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/741aa5a30354216131743478",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1630,13 +1630,13 @@
     "chutes/Kimi-K2.6-TEE": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
         "last_capture_at": "2026-11-15T19:22:18Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/5c27791fdcd8f01aa06a6ee2",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/5c27791fdcd8f01aa06a6ee2",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1658,13 +1658,13 @@
     "chutes/gemma-4-31B-TEE": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
         "last_capture_at": "2026-11-15T19:22:16Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/bec27c693c1b775b82d4b459",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/bec27c693c1b775b82d4b459",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1672,12 +1672,12 @@
     "near-ai/Qwen/Qwen3.8-27B": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:02Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/dfb43c43177f843aa81b4884",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/dfb43c43177f843aa81b4884",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1699,12 +1699,12 @@
     "near-ai/z-ai/glm-5.3-flash": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:02Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/c6c0aa8db6389321c609e8e4",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/c6c0aa8db6389321c609e8e4",
       "outcome": "not_checked",
       "reason": "missing_credentials",
       "row_status": "unknown"
@@ -1726,13 +1726,13 @@
     "tinfoil/router": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:02Z",
-        "last_capture_at": "2026-11-16T22:39:02Z",
+        "last_attempt_at": "2026-11-16T22:52:52Z",
+        "last_capture_at": "2026-11-16T22:52:52Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/fbec6b27aeb17348d9938dcb",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/fbec6b27aeb17348d9938dcb",
       "outcome": "rejected",
       "reason": "unspecified",
       "row_status": "unknown"
@@ -1740,13 +1740,13 @@
     "venice/e2ee-gemma-4-31b": {
       "freshness": {
         "last_adapter_verified_at": null,
-        "last_attempt_at": "2026-11-16T22:39:05Z",
+        "last_attempt_at": "2026-11-16T22:52:56Z",
         "last_capture_at": "2026-10-13T19:51:41Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/016d51929979d7ad52446170",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/016d51929979d7ad52446170",
       "outcome": "unavailable",
       "reason": "evidence_missing",
       "row_status": "unknown"
@@ -1754,13 +1754,13 @@
     "venice/e2ee-glm-5-1": {
       "freshness": {
         "last_adapter_verified_at": "2026-11-15T19:22:05Z",
-        "last_attempt_at": "2026-11-16T22:39:04Z",
-        "last_capture_at": "2026-11-16T22:39:04Z",
+        "last_attempt_at": "2026-11-16T22:52:54Z",
+        "last_capture_at": "2026-11-16T22:52:54Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/3f403121a4cef3606894d7fe",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/3f403121a4cef3606894d7fe",
       "outcome": "rejected",
       "reason": "adapter_rejected",
       "row_status": "unknown"
@@ -1768,27 +1768,27 @@
     "venice/e2ee-gpt-oss-120b-p": {
       "freshness": {
         "last_adapter_verified_at": "2026-11-15T19:22:08Z",
-        "last_attempt_at": "2026-11-16T22:39:06Z",
-        "last_capture_at": "2026-11-16T22:39:06Z",
+        "last_attempt_at": "2026-11-16T22:52:58Z",
+        "last_capture_at": "2026-11-16T22:52:58Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/7f665a507cb4da42f39d662c",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/7f665a507cb4da42f39d662c",
       "outcome": "rejected",
       "reason": "adapter_rejected",
       "row_status": "unknown"
     },
     "venice/e2ee-qwen3-6-35b-a3b": {
       "freshness": {
-        "last_adapter_verified_at": "2026-11-16T22:39:05Z",
-        "last_attempt_at": "2026-11-16T22:39:05Z",
-        "last_capture_at": "2026-11-16T22:39:05Z",
+        "last_adapter_verified_at": "2026-11-16T22:52:56Z",
+        "last_attempt_at": "2026-11-16T22:52:56Z",
+        "last_capture_at": "2026-11-16T22:52:56Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/4f3fb84ea047d1d01d3bfbd4",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/4f3fb84ea047d1d01d3bfbd4",
       "outcome": "verified",
       "reason": "adapter_accepted",
       "row_status": "current"
@@ -1796,19 +1796,19 @@
     "venice/e2ee-qwen3-6-35b-a3b-uncensored-p": {
       "freshness": {
         "last_adapter_verified_at": "2026-11-15T19:22:09Z",
-        "last_attempt_at": "2026-11-16T22:39:08Z",
-        "last_capture_at": "2026-11-16T22:39:08Z",
+        "last_attempt_at": "2026-11-16T22:53:00Z",
+        "last_capture_at": "2026-11-16T22:53:00Z",
         "last_cryptographic_verification_at": null,
         "last_policy_review_at": null,
         "last_triage_at": null
       },
-      "observation_id": "20261116T223857.797566Z-27869f59edce/66573e9817f2d95025f0dec4",
+      "observation_id": "20261116T225246.710486Z-8f1f72665607/66573e9817f2d95025f0dec4",
       "outcome": "rejected",
       "reason": "adapter_rejected",
       "row_status": "unknown"
     }
   },
-  "run_id": "20261116T223857.797566Z-27869f59edce",
+  "run_id": "20261116T225246.710486Z-8f1f72665607",
   "schema_version": "0.2",
   "view_completeness": "complete"
 }

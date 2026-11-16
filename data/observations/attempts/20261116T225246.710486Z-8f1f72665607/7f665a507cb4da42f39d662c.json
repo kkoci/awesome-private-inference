@@ -1,0 +1,12 @@
+{
+  "model": "e2ee-gpt-oss-120b-p",
+  "observation_id": "20261116T225246.710486Z-8f1f72665607/7f665a507cb4da42f39d662c",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "venice",
+  "reason": "pending",
+  "route_id": "venice/e2ee-gpt-oss-120b-p",
+  "run_id": "20261116T225246.710486Z-8f1f72665607",
+  "schema_version": "1",
+  "started_at": "2026-11-16T22:52:46.710533Z"
+}
