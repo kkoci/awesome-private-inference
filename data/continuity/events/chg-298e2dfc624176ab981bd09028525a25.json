@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "tinfoil/router"
+  ],
+  "component_id": "tinfoil/router",
+  "event_id": "chg-298e2dfc624176ab981bd09028525a25",
+  "field": "measurement",
+  "first_seen_at": "2026-11-18T21:24:12Z",
+  "kind": "untrusted_identity_reported",
+  "last_seen_at": "2026-11-18T21:24:12Z",
+  "new_observation_id": "20261118T212407.030493Z-445d2f620eb9/fbec6b27aeb17348d9938dcb",
+  "new_observation_path": "observations/records/20261118T212407.030493Z-445d2f620eb9/fbec6b27aeb17348d9938dcb.json",
+  "new_raw_evidence_ref": "observations/evidence/sha256/febb1c7bf02e38d7701e9e23d288f4344973faec9a06af9fb22f306c3ca803ca.json",
+  "new_value": "fc6a1c627b66f661b3748edddf4e5bce47358dedbaaa3f0d244f50e555ce24996fb9f36bf96c1836547510e965d0c6e4",
+  "old_observation_id": "20261117T214441.583853Z-f92f162226e7/fbec6b27aeb17348d9938dcb",
+  "old_observation_path": "observations/records/20261117T214441.583853Z-f92f162226e7/fbec6b27aeb17348d9938dcb.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/d9693fc2964da9801f1da3021e6174282f9a5f541522c985b9f451aad10acc75.json",
+  "old_value": "b2d855cd6b434070e241483bbc5b3aa00b2a84345fc190fb7115e6f509be9baffebe43ae6f66b0da693c1722f312bf97",
+  "priority": "high",
+  "route_id": "tinfoil/router",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}
