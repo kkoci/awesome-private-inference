@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-19T21:28:21.232426Z",
+  "generated_at": "2026-11-20T21:03:26.202570Z",
   "window": {
     "first": "2026-04-21",
-    "last": "2026-11-19",
-    "days": 208
+    "last": "2026-11-20",
+    "days": 209
   },
   "calibration": {
-    "observations": 4031,
-    "pass": 2485,
-    "transport": 917,
-    "no-error-invalid": 553,
-    "verification-failure": 76,
-    "explicit_error_bucket": 76,
+    "observations": 4047,
+    "pass": 2488,
+    "transport": 918,
+    "no-error-invalid": 557,
+    "verification-failure": 84,
+    "explicit_error_bucket": 84,
     "interpretation": "Historical adapter outcomes, not a security failure rate or independent trials",
     "no_error_invalid_by_provider": {
-      "aci-gateway": 153,
+      "aci-gateway": 154,
       "chutes": 178,
       "near-ai": 37,
       "redpill": 123,
-      "venice": 62
+      "venice": 65
     },
-    "note": "553 of 4031 observations were invalid with no error attached: aci-gateway 153, chutes 178, near-ai 37, redpill 123, venice 62. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
+    "note": "557 of 4047 observations were invalid with no error attached: aci-gateway 154, chutes 178, near-ai 37, redpill 123, venice 65. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
   },
   "coverage": [
     {
@@ -328,7 +328,7 @@
     "builds_reviewed": 7,
     "backlog": 107,
     "last_audit": "2026-09-02",
-    "days_since_last_audit": 78,
+    "days_since_last_audit": 79,
     "by_provider": {
       "near-ai": {
         "builds_observed": 38,
@@ -361,8 +361,8 @@
     {
       "provider": "aci-gateway",
       "model": "api.redpill.ai",
-      "observations": 89,
-      "span_days": 93,
+      "observations": 90,
+      "span_days": 94,
       "distinct": 21,
       "novel": 20,
       "revisit": 1,
@@ -374,8 +374,8 @@
     {
       "provider": "aci-gateway",
       "model": "inference.phala.com",
-      "observations": 89,
-      "span_days": 93,
+      "observations": 90,
+      "span_days": 94,
       "distinct": 21,
       "novel": 20,
       "revisit": 0,
@@ -387,8 +387,8 @@
     {
       "provider": "aci-gateway",
       "model": "tee.redpill.ai",
-      "observations": 89,
-      "span_days": 93,
+      "observations": 90,
+      "span_days": 94,
       "distinct": 21,
       "novel": 20,
       "revisit": 0,
@@ -608,8 +608,8 @@
     {
       "provider": "tinfoil",
       "model": "router",
-      "observations": 203,
-      "span_days": 207,
+      "observations": 204,
+      "span_days": 208,
       "distinct": 62,
       "novel": 61,
       "revisit": 0,
