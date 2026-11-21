@@ -1,0 +1,12 @@
+{
+  "model": "GLM-5.2-TEE",
+  "observation_id": "20261121T200416.065847Z-76e314354cd0/741aa5a30354216131743478",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "chutes",
+  "reason": "pending",
+  "route_id": "chutes/GLM-5.2-TEE",
+  "run_id": "20261121T200416.065847Z-76e314354cd0",
+  "schema_version": "1",
+  "started_at": "2026-11-21T20:04:16.065892Z"
+}

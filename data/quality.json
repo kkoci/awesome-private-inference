@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-20T21:03:26.202570Z",
+  "generated_at": "2026-11-21T20:04:16.065892Z",
   "window": {
     "first": "2026-04-21",
-    "last": "2026-11-20",
-    "days": 209
+    "last": "2026-11-21",
+    "days": 210
   },
   "calibration": {
-    "observations": 4047,
-    "pass": 2488,
-    "transport": 918,
-    "no-error-invalid": 557,
-    "verification-failure": 84,
-    "explicit_error_bucket": 84,
+    "observations": 4063,
+    "pass": 2491,
+    "transport": 919,
+    "no-error-invalid": 561,
+    "verification-failure": 92,
+    "explicit_error_bucket": 92,
     "interpretation": "Historical adapter outcomes, not a security failure rate or independent trials",
     "no_error_invalid_by_provider": {
-      "aci-gateway": 154,
+      "aci-gateway": 155,
       "chutes": 178,
       "near-ai": 37,
       "redpill": 123,
-      "venice": 65
+      "venice": 68
     },
-    "note": "557 of 4047 observations were invalid with no error attached: aci-gateway 154, chutes 178, near-ai 37, redpill 123, venice 65. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
+    "note": "561 of 4063 observations were invalid with no error attached: aci-gateway 155, chutes 178, near-ai 37, redpill 123, venice 68. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
   },
   "coverage": [
     {
@@ -328,7 +328,7 @@
     "builds_reviewed": 7,
     "backlog": 107,
     "last_audit": "2026-09-02",
-    "days_since_last_audit": 79,
+    "days_since_last_audit": 80,
     "by_provider": {
       "near-ai": {
         "builds_observed": 38,
@@ -361,40 +361,40 @@
     {
       "provider": "aci-gateway",
       "model": "api.redpill.ai",
-      "observations": 90,
-      "span_days": 94,
+      "observations": 91,
+      "span_days": 95,
       "distinct": 21,
       "novel": 20,
       "revisit": 1,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.7,
+      "observed_days_per_new_identity": 4.8,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
       "provider": "aci-gateway",
       "model": "inference.phala.com",
-      "observations": 90,
-      "span_days": 94,
+      "observations": 91,
+      "span_days": 95,
       "distinct": 21,
       "novel": 20,
       "revisit": 0,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.7,
+      "observed_days_per_new_identity": 4.8,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
       "provider": "aci-gateway",
       "model": "tee.redpill.ai",
-      "observations": 90,
-      "span_days": 94,
+      "observations": 91,
+      "span_days": 95,
       "distinct": 21,
       "novel": 20,
       "revisit": 0,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.7,
+      "observed_days_per_new_identity": 4.8,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
@@ -608,8 +608,8 @@
     {
       "provider": "tinfoil",
       "model": "router",
-      "observations": 204,
-      "span_days": 208,
+      "observations": 205,
+      "span_days": 209,
       "distinct": 62,
       "novel": 61,
       "revisit": 0,
