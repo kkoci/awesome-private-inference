@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "observation_id": "20261124T225955.810955Z-0e8f6e80ab0e/dfb43c43177f843aa81b4884",
+  "observer": "daily-probe",
+  "outcome": "not_checked",
+  "provider": "near-ai",
+  "reason": "pending",
+  "route_id": "near-ai/Qwen/Qwen3.8-27B",
+  "run_id": "20261124T225955.810955Z-0e8f6e80ab0e",
+  "schema_version": "1",
+  "started_at": "2026-11-24T22:59:55.810999Z"
+}

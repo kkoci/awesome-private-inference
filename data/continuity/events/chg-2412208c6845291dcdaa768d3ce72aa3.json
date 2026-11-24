@@ -1,0 +1,25 @@
+{
+  "affected_routes": [
+    "aci-gateway/api.redpill.ai",
+    "aci-gateway/inference.phala.com",
+    "aci-gateway/tee.redpill.ai"
+  ],
+  "component_id": "aci-gateway/shared-workload",
+  "event_id": "chg-2412208c6845291dcdaa768d3ce72aa3",
+  "field": "repo_commit",
+  "first_seen_at": "2026-11-24T23:00:00Z",
+  "kind": "untrusted_identity_reported",
+  "last_seen_at": "2026-11-24T23:00:00Z",
+  "new_observation_id": "20261124T225955.810955Z-0e8f6e80ab0e/00d71b240a1e65dce0fd7c79",
+  "new_observation_path": "observations/records/20261124T225955.810955Z-0e8f6e80ab0e/00d71b240a1e65dce0fd7c79.json",
+  "new_raw_evidence_ref": "observations/evidence/sha256/335cff60b4ec7d1ad5937fe97850bd283d940cf9170dab9af768bfa0819b3a15.json",
+  "new_value": "9f3e693befca172c0672fc3af551cab253570540",
+  "old_observation_id": "20261124T004813.889056Z-4636e3603e95/00d71b240a1e65dce0fd7c79",
+  "old_observation_path": "observations/records/20261124T004813.889056Z-4636e3603e95/00d71b240a1e65dce0fd7c79.json",
+  "old_raw_evidence_ref": "observations/evidence/sha256/51b979c82ec525dfa6ee69b3904e7f2618e5486c1c06a35d37a51022b0b8032c.json",
+  "old_value": "3147f87151bb1960349a30022187108b2cbdfc70",
+  "priority": "high",
+  "route_id": "aci-gateway/api.redpill.ai",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}

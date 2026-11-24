@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:48:13.889096Z",
+  "generated_at": "2026-11-24T22:59:55.810999Z",
   "window": {
     "first": "2026-04-21",
     "last": "2026-11-24",
@@ -243,18 +243,28 @@
       "provider": "venice",
       "model": "e2ee-glm-5-1",
       "shape": "venice",
-      "status": "invalid",
-      "proven": 10,
+      "status": "unreachable",
+      "proven": 0,
       "required": 14,
       "missing": [
         "code_measurement_reproducible",
+        "compose_hash_committed",
+        "event_log_replayed",
         "gpu_attested",
+        "key_derives_to_address",
+        "nonce_bound",
         "prod_os_image",
-        "serving_code_attested"
+        "report_data_binds_key",
+        "serving_code_attested",
+        "tcb_current",
+        "tdx_verified",
+        "tee_boot_config",
+        "tee_debug_disabled",
+        "tee_hardware_config"
       ],
       "version_identity": "absent",
       "version_source": "none",
-      "error": null,
+      "error": "HTTP 502: {\"instance_id\":\"f27664c0-7ff7-46ee-8f50-b589ef4a1476\",\"nonce\":\"c3c0a40",
       "hidden_layers": []
     },
     {
@@ -300,11 +310,10 @@
       "model": "e2ee-qwen3-6-35b-a3b-uncensored-p",
       "shape": "venice",
       "status": "invalid",
-      "proven": 10,
+      "proven": 11,
       "required": 14,
       "missing": [
         "code_measurement_reproducible",
-        "gpu_attested",
         "prod_os_image",
         "serving_code_attested"
       ],
@@ -315,10 +324,10 @@
     }
   ],
   "coverage_summary": {
-    "invalid": 5,
+    "invalid": 4,
     "verified": 2,
     "not_checked": 7,
-    "unreachable": 4,
+    "unreachable": 5,
     "partial": 1
   },
   "unmeasurable_providers": [
@@ -353,9 +362,9 @@
   },
   "density": {
     "published_cells": 532,
-    "carrying_signal": 77,
-    "dashes": 455,
-    "signal_fraction": 0.145
+    "carrying_signal": 67,
+    "dashes": 465,
+    "signal_fraction": 0.126
   },
   "hidden_layer_targets": [],
   "cadence": [
