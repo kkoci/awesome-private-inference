@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "venice/e2ee-qwen3-6-35b-a3b-uncensored-p"
+  ],
+  "component_id": null,
+  "event_id": "chg-b1e076694a7af37eb413f0cdc5590801",
+  "field": "gpu_attested",
+  "first_seen_at": "2026-11-24T00:48:30Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-11-24T00:48:30Z",
+  "new_observation_id": "20261124T004813.889056Z-4636e3603e95/66573e9817f2d95025f0dec4",
+  "new_observation_path": "observations/records/20261124T004813.889056Z-4636e3603e95/66573e9817f2d95025f0dec4.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261122T201906.846037Z-67ac0b4b376a/66573e9817f2d95025f0dec4",
+  "old_observation_path": "observations/records/20261122T201906.846037Z-67ac0b4b376a/66573e9817f2d95025f0dec4.json",
+  "old_raw_evidence_ref": null,
+  "old_value": true,
+  "priority": "normal",
+  "route_id": "venice/e2ee-qwen3-6-35b-a3b-uncensored-p",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}
