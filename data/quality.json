@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-25T22:28:32.647651Z",
+  "generated_at": "2026-11-26T22:17:53.308487Z",
   "window": {
     "first": "2026-04-21",
-    "last": "2026-11-25",
-    "days": 213
+    "last": "2026-11-26",
+    "days": 214
   },
   "calibration": {
-    "observations": 4111,
-    "pass": 2500,
-    "transport": 923,
-    "no-error-invalid": 572,
-    "verification-failure": 116,
-    "explicit_error_bucket": 116,
+    "observations": 4127,
+    "pass": 2503,
+    "transport": 927,
+    "no-error-invalid": 573,
+    "verification-failure": 124,
+    "explicit_error_bucket": 124,
     "interpretation": "Historical adapter outcomes, not a security failure rate or independent trials",
     "no_error_invalid_by_provider": {
-      "aci-gateway": 158,
+      "aci-gateway": 159,
       "chutes": 178,
       "near-ai": 37,
       "redpill": 123,
       "venice": 76
     },
-    "note": "572 of 4111 observations were invalid with no error attached: aci-gateway 158, chutes 178, near-ai 37, redpill 123, venice 76. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
+    "note": "573 of 4127 observations were invalid with no error attached: aci-gateway 159, chutes 178, near-ai 37, redpill 123, venice 76. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
   },
   "coverage": [
     {
@@ -264,25 +264,35 @@
       ],
       "version_identity": "absent",
       "version_source": "none",
-      "error": "HTTP 502: {\"instance_id\":\"b98a4ae8-b40e-4e73-b6f8-3b043e44ae74\",\"nonce\":\"b234e65",
+      "error": "no TEE attestation available for this model (404)",
       "hidden_layers": []
     },
     {
       "provider": "venice",
       "model": "e2ee-gpt-oss-120b-p",
       "shape": "venice",
-      "status": "invalid",
-      "proven": 10,
+      "status": "unreachable",
+      "proven": 0,
       "required": 14,
       "missing": [
         "code_measurement_reproducible",
+        "compose_hash_committed",
+        "event_log_replayed",
         "gpu_attested",
+        "key_derives_to_address",
+        "nonce_bound",
         "prod_os_image",
-        "serving_code_attested"
+        "report_data_binds_key",
+        "serving_code_attested",
+        "tcb_current",
+        "tdx_verified",
+        "tee_boot_config",
+        "tee_debug_disabled",
+        "tee_hardware_config"
       ],
       "version_identity": "absent",
       "version_source": "none",
-      "error": null,
+      "error": "no TEE attestation available for this model (404)",
       "hidden_layers": []
     },
     {
@@ -309,25 +319,36 @@
       "provider": "venice",
       "model": "e2ee-qwen3-6-35b-a3b-uncensored-p",
       "shape": "venice",
-      "status": "invalid",
-      "proven": 11,
+      "status": "unreachable",
+      "proven": 0,
       "required": 14,
       "missing": [
         "code_measurement_reproducible",
+        "compose_hash_committed",
+        "event_log_replayed",
+        "gpu_attested",
+        "key_derives_to_address",
+        "nonce_bound",
         "prod_os_image",
-        "serving_code_attested"
+        "report_data_binds_key",
+        "serving_code_attested",
+        "tcb_current",
+        "tdx_verified",
+        "tee_boot_config",
+        "tee_debug_disabled",
+        "tee_hardware_config"
       ],
       "version_identity": "absent",
       "version_source": "none",
-      "error": null,
+      "error": "no TEE attestation available for this model (404)",
       "hidden_layers": []
     }
   ],
   "coverage_summary": {
-    "invalid": 4,
+    "invalid": 2,
     "verified": 2,
     "not_checked": 7,
-    "unreachable": 5,
+    "unreachable": 7,
     "partial": 1
   },
   "unmeasurable_providers": [
@@ -338,7 +359,7 @@
     "builds_reviewed": 7,
     "backlog": 107,
     "last_audit": "2026-09-02",
-    "days_since_last_audit": 84,
+    "days_since_last_audit": 85,
     "by_provider": {
       "near-ai": {
         "builds_observed": 38,
@@ -362,17 +383,17 @@
   },
   "density": {
     "published_cells": 532,
-    "carrying_signal": 67,
-    "dashes": 465,
-    "signal_fraction": 0.126
+    "carrying_signal": 44,
+    "dashes": 488,
+    "signal_fraction": 0.083
   },
   "hidden_layer_targets": [],
   "cadence": [
     {
       "provider": "aci-gateway",
       "model": "api.redpill.ai",
-      "observations": 94,
-      "span_days": 99,
+      "observations": 95,
+      "span_days": 100,
       "distinct": 23,
       "novel": 22,
       "revisit": 1,
@@ -384,8 +405,8 @@
     {
       "provider": "aci-gateway",
       "model": "inference.phala.com",
-      "observations": 94,
-      "span_days": 99,
+      "observations": 95,
+      "span_days": 100,
       "distinct": 23,
       "novel": 22,
       "revisit": 0,
@@ -397,8 +418,8 @@
     {
       "provider": "aci-gateway",
       "model": "tee.redpill.ai",
-      "observations": 94,
-      "span_days": 99,
+      "observations": 95,
+      "span_days": 100,
       "distinct": 23,
       "novel": 22,
       "revisit": 0,
@@ -618,8 +639,8 @@
     {
       "provider": "tinfoil",
       "model": "router",
-      "observations": 208,
-      "span_days": 213,
+      "observations": 209,
+      "span_days": 214,
       "distinct": 62,
       "novel": 61,
       "revisit": 0,

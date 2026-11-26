@@ -1,0 +1,23 @@
+{
+  "affected_routes": [
+    "venice/e2ee-gpt-oss-120b-p"
+  ],
+  "component_id": null,
+  "event_id": "chg-765309027473e91c2a044f1030a9381b",
+  "field": "tcb_current",
+  "first_seen_at": "2026-11-26T22:18:01Z",
+  "kind": "untrusted_cell_reported",
+  "last_seen_at": "2026-11-26T22:18:01Z",
+  "new_observation_id": "20261126T221753.308442Z-213e28e7f444/7f665a507cb4da42f39d662c",
+  "new_observation_path": "observations/records/20261126T221753.308442Z-213e28e7f444/7f665a507cb4da42f39d662c.json",
+  "new_raw_evidence_ref": null,
+  "new_value": null,
+  "old_observation_id": "20261125T222832.647614Z-65ca29afc548/7f665a507cb4da42f39d662c",
+  "old_observation_path": "observations/records/20261125T222832.647614Z-65ca29afc548/7f665a507cb4da42f39d662c.json",
+  "old_raw_evidence_ref": null,
+  "old_value": true,
+  "priority": "normal",
+  "route_id": "venice/e2ee-gpt-oss-120b-p",
+  "trust": "untrusted_report",
+  "uncertainty": null
+}
