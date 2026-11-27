@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-26T22:17:53.308487Z",
+  "generated_at": "2026-11-27T21:56:34.470838Z",
   "window": {
     "first": "2026-04-21",
-    "last": "2026-11-26",
-    "days": 214
+    "last": "2026-11-27",
+    "days": 215
   },
   "calibration": {
-    "observations": 4127,
-    "pass": 2503,
-    "transport": 927,
-    "no-error-invalid": 573,
-    "verification-failure": 124,
-    "explicit_error_bucket": 124,
+    "observations": 4143,
+    "pass": 2506,
+    "transport": 930,
+    "no-error-invalid": 575,
+    "verification-failure": 132,
+    "explicit_error_bucket": 132,
     "interpretation": "Historical adapter outcomes, not a security failure rate or independent trials",
     "no_error_invalid_by_provider": {
-      "aci-gateway": 159,
+      "aci-gateway": 160,
       "chutes": 178,
       "near-ai": 37,
       "redpill": 123,
-      "venice": 76
+      "venice": 77
     },
-    "note": "573 of 4127 observations were invalid with no error attached: aci-gateway 159, chutes 178, near-ai 37, redpill 123, venice 76. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
+    "note": "575 of 4143 observations were invalid with no error attached: aci-gateway 160, chutes 178, near-ai 37, redpill 123, venice 77. Read these carefully. A row lands here when a required layer came back False without an exception, which is a genuine failure \u2014 but until 2026-08-18 it also caught a failed call to Phala's appraisal service, because the helper read an error body as `verified: false`. That is fixed (the call now raises, so it is recorded as transport), and counts from earlier snapshots mix the two. Error-string classes are not a calibrated detector. Retired providers stay in this history; removing an integration must not improve the registry's grade."
   },
   "coverage": [
     {
@@ -319,36 +319,25 @@
       "provider": "venice",
       "model": "e2ee-qwen3-6-35b-a3b-uncensored-p",
       "shape": "venice",
-      "status": "unreachable",
-      "proven": 0,
+      "status": "invalid",
+      "proven": 11,
       "required": 14,
       "missing": [
         "code_measurement_reproducible",
-        "compose_hash_committed",
-        "event_log_replayed",
-        "gpu_attested",
-        "key_derives_to_address",
-        "nonce_bound",
         "prod_os_image",
-        "report_data_binds_key",
-        "serving_code_attested",
-        "tcb_current",
-        "tdx_verified",
-        "tee_boot_config",
-        "tee_debug_disabled",
-        "tee_hardware_config"
+        "serving_code_attested"
       ],
       "version_identity": "absent",
       "version_source": "none",
-      "error": "no TEE attestation available for this model (404)",
+      "error": null,
       "hidden_layers": []
     }
   ],
   "coverage_summary": {
-    "invalid": 2,
+    "invalid": 3,
     "verified": 2,
     "not_checked": 7,
-    "unreachable": 7,
+    "unreachable": 6,
     "partial": 1
   },
   "unmeasurable_providers": [
@@ -359,7 +348,7 @@
     "builds_reviewed": 7,
     "backlog": 107,
     "last_audit": "2026-09-02",
-    "days_since_last_audit": 85,
+    "days_since_last_audit": 86,
     "by_provider": {
       "near-ai": {
         "builds_observed": 38,
@@ -383,49 +372,49 @@
   },
   "density": {
     "published_cells": 532,
-    "carrying_signal": 44,
-    "dashes": 488,
-    "signal_fraction": 0.083
+    "carrying_signal": 56,
+    "dashes": 476,
+    "signal_fraction": 0.105
   },
   "hidden_layer_targets": [],
   "cadence": [
     {
       "provider": "aci-gateway",
       "model": "api.redpill.ai",
-      "observations": 95,
-      "span_days": 100,
+      "observations": 96,
+      "span_days": 101,
       "distinct": 23,
       "novel": 22,
       "revisit": 1,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.5,
+      "observed_days_per_new_identity": 4.6,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
       "provider": "aci-gateway",
       "model": "inference.phala.com",
-      "observations": 95,
-      "span_days": 100,
+      "observations": 96,
+      "span_days": 101,
       "distinct": 23,
       "novel": 22,
       "revisit": 0,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.5,
+      "observed_days_per_new_identity": 4.6,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
       "provider": "aci-gateway",
       "model": "tee.redpill.ai",
-      "observations": 95,
-      "span_days": 100,
+      "observations": 96,
+      "span_days": 101,
       "distinct": 23,
       "novel": 22,
       "revisit": 0,
       "version_source": "control-plane",
       "retired": false,
-      "observed_days_per_new_identity": 4.5,
+      "observed_days_per_new_identity": 4.6,
       "sampling_limit": "Newly observed identity, not confirmed deployment; gaps and fleet sampling remain unidentifiable"
     },
     {
@@ -639,8 +628,8 @@
     {
       "provider": "tinfoil",
       "model": "router",
-      "observations": 209,
-      "span_days": 214,
+      "observations": 210,
+      "span_days": 215,
       "distinct": 62,
       "novel": 61,
       "revisit": 0,
